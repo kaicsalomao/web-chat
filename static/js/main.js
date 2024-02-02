@@ -21,7 +21,7 @@ window.onload = function () {
     let objectID = Math.random() * 1000000;
     objectID = Math.floor(objectID);
     objectID = objectID.toString(16);
-    alert(objectID)
+    // alert(objectID)
     // Enviar mensagem para o back-end
     // Identificar cada mensagem com um ID especifico
     // para não repetir a mensagem ao colocar no chat
