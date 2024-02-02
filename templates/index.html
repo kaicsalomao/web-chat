@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>chat</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="{{url_for('static', filename='css/style.css')}}"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="chat"></div>
+      <form>
+        <div class="shotbox">
+          <input type="text" placeholder="Nome" required id="username" />
+          <input type="text" placeholder="Sua mensagem" required id="message" />
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>Criado por Kaic Salomão</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"
+      integrity="sha512-tE1z+95+lMCGwy+9PnKgUSIeHhvioC9lMlI7rLWU0Ps3XTdjRygLcy4mLuL0JAoK4TLdQEyP0yOl/9dMOqpH/Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+  </body>
+</html>
