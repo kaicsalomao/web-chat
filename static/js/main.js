@@ -25,7 +25,7 @@ window.onload = function () {
     // Enviar mensagem para o back-end
     // Identificar cada mensagem com um ID especifico
     // para não repetir a mensagem ao colocar no chat
-    // correção: 
+    // correção: e0d666c 
     socket.emit("sendMessage", {
       id: objectID,
       username: event.target[0].value,
