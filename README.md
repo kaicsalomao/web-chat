@@ -1,7 +1,7 @@
 # Web Chat 
 Um chat online escrito em python com o framework Flask junto com Flask-SocketIO
 
-<img src="img/web-chat01.jpg" height="280px">
+<img src="img/web-chat01.jpg" height="310px">
 
 
 ## Execute
